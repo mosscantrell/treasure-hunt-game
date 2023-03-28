@@ -1,0 +1,99 @@
+@keyframes bounceIn {
+    0% {
+      transform: scaleX(0.5);
+      opacity: 1;
+    }
+    60% {
+      transform: scaleX(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(0.8);
+    }
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1303098/pexels-photo-1303098.jpeg);
+    background-size: 100vw 200vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+.santaClaus {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.restartGame {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: 200px;
+}
+
+#gameboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+}
+
+table {
+    width: 400px;
+    height: 400px;
+}
+
+tr {
+    text-align: center;
+    width: 400px;
+    height: 133px;
+}
+
+h1 {
+    background: #A7050A;
+    max-width: fit-content;
+    font-size: 64px;
+    border: 8px dotted white;
+    color: #E4AE66;
+    animation: bounceIn 3s infinite;
+}
+
+td {
+    font-size: 100px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    background: #A7050A;
+    max-width: fit-content;
+    color: #E4AE66;
+}
+
+#headerTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#directions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    background: rgba(228,174,102, 0.8);
+    max-width: fit-content;
+}
